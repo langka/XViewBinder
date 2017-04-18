@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * Created by xsuong on 2017/4/17.
  */
 @Target(ElementType.FIELD)
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 public @interface  XBind {
     @IdRes int value();
 }
