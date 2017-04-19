@@ -9,6 +9,6 @@ import android.view.View;
 
 public class XBinder {
     public static void find(Context target){
-
+        Class
     }
 }
